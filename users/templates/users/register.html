@@ -1,0 +1,23 @@
+{% extends "blog/base.html"%}
+{%block content%}
+<h1> about page</h1>
+
+<div class="content-section">
+<form method="POST">
+
+	{%csrf_token%}
+	<fieldset class="form-group">
+
+		<legend class="border bottom">Join Today</legend>
+	
+	</fieldset>
+<div class="content-section">
+
+	<button class="btn login" type="submit">register</button>
+</div>
+</form>
+{{form}}
+
+</div>
+{%endblock content%}
+
